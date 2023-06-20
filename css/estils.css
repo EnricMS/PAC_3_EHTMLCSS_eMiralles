@@ -1,0 +1,707 @@
+/*-----------------------------GENERAL--------------------------------------*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+.bold {
+    font-weight: bolder;
+}
+
+.link {
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+    word-spacing: 2px;
+}
+
+.bodyStyle {
+    background: linear-gradient(rgba(35, 65, 144, 255), rgb(81, 65, 250), rgb(39, 145, 177), rgb(81, 65, 250), rgba(35, 65, 144, 255));
+}
+
+.header {
+    background: linear-gradient(rgba(21, 6, 202, 1), rgba(35, 65, 144, 255));
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+}
+
+.titols {
+    margin-top: 40px;
+    text-align: center;
+    color: white;
+    margin-bottom: 60px;
+}
+
+.subTitle {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.multimedia {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.footer {
+    background: linear-gradient(rgba(35, 65, 144, 255), rgba(21, 6, 202, 1));
+    color: white;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    position: absolute;
+    padding-top: 30px;
+    line-height: 30px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 50px;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.input-email {
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: white;
+}
+
+.saveButton {
+    width: 100px;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 10px 20px;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: rgba(2,28,143,0.525);
+    color: white;
+}
+
+
+.PolitiquesFooter>a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin-left: 8px;
+    margin-right: 8px;
+    display: flex;
+    grid-template-columns: auto;
+    column-gap: 0px;
+    margin-bottom: 10px;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.bodyText {
+    text-align: left;
+    color: white;
+    padding-left: 28%;
+    padding-right: 28%;
+    margin-bottom: 23px;
+    background-color: rgba(2, 28, 143, 0.527);
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 30px;
+    border: 5px solid;
+    border-color: rgba(21, 6, 202, 1) rgb(185, 85, 85);
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.bodyText>p {
+    margin-bottom: 20px;
+}
+
+.nav {
+    margin-right: 25%;
+    margin-left: 25%;
+    margin-bottom: 50px;
+}
+
+.nav>li {
+    text-align: center;
+}
+
+.nav a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    word-spacing: 2px;
+    padding: 5px 10px;
+}
+
+.nav a:visited {
+    color: white;
+}
+
+.iconaRedireccio {
+    width: 30px;
+}
+
+.iconaRedireccioGeo {
+    width: 200px;
+}
+
+.iconaRedireccioActv {
+    width: 100px;
+    
+}
+
+.SVGAnimat {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 50%;
+    padding-right: 50%;
+  }
+  
+  .SVG {
+    width: 100px;
+    height: 100px;
+    animation: spin 2s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg); 
+    }
+    100% {
+      transform: rotate(360deg); 
+    }
+}
+
+.contenidorRedireccioDetall{
+    display: flex;
+    justify-content: center;
+}
+
+.iconaRedireccio{
+    margin-right: 10px;
+}
+
+/* PC */
+@media screen and (min-width: 1024px) {
+
+    .header>h1 {
+        margin-left: 15px;
+        margin-top: 30px;
+        margin-right: 20px;
+        vertical-align: text-bottom;
+    }
+
+    #IcelandLogo {
+        width: 80px;
+        border-radius: 50%;
+    }
+
+    .nav>ul {
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        padding-top: 50px;
+        padding-right: 20px;
+    }
+
+    .iconaInst {
+        width: 30px;
+        margin-left: 10px;
+    }
+}
+
+
+/* TABLET */
+@media screen and (min-width:481px) and (max-width: 1023px) {
+
+    .header>h1 {
+        vertical-align: text-bottom;
+    }
+
+    #IcelandLogo {
+        width: 80px;
+        border-radius: 50%;
+    }
+
+    .nav>ul {
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        padding-top: 50px;
+        justify-content: space-evenly;
+    }
+
+    .iconaInst {
+        width: 30px;
+        margin-left: 10px;
+    }
+}
+
+/* PHONE */
+@media screen and (max-width: 480px) {
+    .header {
+        display: flex;
+        flex-direction: column;
+        padding-top: 20px;
+    }
+
+    #IcelandLogo {
+        margin-top: 20px;
+        width: 100px;
+        border-radius: 50%;
+    }
+
+    .nav>ul {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        padding-top: 50px;
+        padding-bottom: 15px;
+        line-height: 30px;
+    }
+
+    .input-email {
+        width: 70%;
+    }
+
+    .iconaInst {
+        width: 30px;
+        margin-left: 10px;
+    }
+}
+
+/*------------------------------------------------------------------------*/
+
+
+/*------------------------------INDEX--------------------------------------*/
+
+.bodyStyleIndex {
+    margin: 0px;
+    background: linear-gradient(rgba(35, 65, 144, 255), rgb(81, 65, 250), rgb(39, 145, 177), rgb(185, 85, 85), rgb(39, 145, 177), rgb(81, 65, 250), rgba(35, 65, 144, 255));
+}
+
+.slider ul {
+    display: flex;
+    padding: 0;
+    width: 300%;
+    animation: canvi 20s infinite;
+}
+
+.slider li {
+    width: 100%;
+    list-style: none;
+}
+
+.slider img {
+    width: 100%;
+}
+
+#img_1 {
+    object-fit: cover;
+    clip-path: inset(10% 10% 5% 8%);
+}
+
+#img_2 {
+    object-fit: cover;
+    clip-path: inset(9% 10% 18% 5%);
+}
+
+#img_3 {
+    object-fit: cover;
+    clip-path: inset(10% 10% 5% 5%);
+}
+
+@keyframes canvi {
+    0% {
+        margin-left: 0;
+    }
+
+    20% {
+        margin-left: 0;
+    }
+
+    25% {
+        margin-left: -100%;
+    }
+
+    45% {
+        margin-left: -100%;
+    }
+
+    50% {
+        margin-left: -200%;
+    }
+
+    70% {
+        margin-left: -200%;
+    }
+}
+
+/* PC */
+@media screen and (min-width: 1024px) {
+    .slider {
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        overflow: hidden;
+        padding: 0%;
+    }
+}
+
+/* TABLET */
+@media screen and (min-width:481px) and (max-width: 1023px) {
+
+    .slider {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        overflow: hidden;
+        padding: 0%;
+    }
+}
+
+/* PHONE */
+@media screen and (max-width: 480px) {
+    .slider {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        overflow: hidden;
+        padding: 0%;
+    }
+}
+
+
+/*------------------------------------------------------------------------*/
+
+
+/*------------------------------INFORMACIO------------------------------*/
+
+
+.sliderInfo {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    overflow: hidden;
+    padding: 0%;
+}
+
+.sliderInfo ul {
+    display: flex;
+    padding: 0;
+    width: 600%;
+    /*espai slider horitzontal*/
+    animation: canvi2 35s infinite;
+}
+
+.sliderInfo li {
+    width: 100%;
+    list-style: none;
+}
+
+.sliderInfo img {
+    width: 90%;
+}
+
+#img_4 {
+    object-fit: cover;
+}
+
+#img_5 {
+    object-fit: cover;
+}
+
+#img_6 {
+    object-fit: cover;
+    clip-path: inset(0% 0% 11% 0%);
+}
+
+#img_7 {
+    object-fit: cover;
+}
+
+#img_8 {
+    object-fit: cover;
+}
+
+#img_9 {
+    object-fit: cover;
+}
+
+@keyframes canvi2 {
+    0% {
+        margin-left: 0%;
+    }
+
+    15% {
+        margin-left: 0%;
+    }
+
+    20% {
+        margin-left: -100%;
+    }
+
+    35% {
+        margin-left: -100%;
+    }
+
+    40% {
+        margin-left: -200%;
+    }
+
+    55% {
+        margin-left: -200%;
+    }
+
+    60% {
+        margin-left: -300%;
+    }
+
+    75% {
+        margin-left: -300%;
+    }
+
+    80% {
+        margin-left: -400%;
+    }
+
+    95% {
+        margin-left: -400%;
+    }
+}
+
+/* PC */
+
+@media screen and (min-width: 1024px) {
+
+    .sliderInfo {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        overflow: hidden;
+        padding: 0%;
+    }
+
+}
+
+/* TABLET */
+@media screen and (min-width:481px) and (max-width: 1023px) {
+
+    .bodyText {
+        margin-left: 5%;
+        margin-right: 5%;
+        padding: 10px;
+        width: 90%;
+    }
+
+    .sliderInfo {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        overflow: hidden;
+        padding: 0%;
+    }
+
+    .sliderInfo>ul {
+        list-style: none;
+    }
+
+    .multimedia>img {
+        width: 100%
+    }
+}
+
+/* PHONE */
+@media screen and (max-width: 480px) {
+
+    .bodyText {
+        margin-left: 5%;
+        margin-right: 5%;
+        padding: 10px;
+        width: 100%;
+    }
+
+    .sliderInfo {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        overflow: hidden;
+        padding: 0%;
+    }
+
+    .sliderInfo>ul {
+        list-style: none;
+    }
+
+    .multimedia>img {
+        width: 100%
+    }
+
+    .multimedia>iframe {
+        width: 100%
+    }
+}
+
+/*-------------------------------------------------------------------------*/
+
+
+
+
+/*------------------------------GEOLOGIA-------------------------------------*/
+
+#DorsalOceanica_iceland {
+    width: 70%;
+    height: auto;
+}
+
+#DorsalOceanicaFoto_iceland {
+    flex: 1;
+    height: auto;
+}
+
+#img_Eyjafjallajökull {
+    width: 80%;
+    clip-path: inset(10% 0% 5% 0%);
+}
+
+#img_Hekla {
+    width: 80%;
+}
+
+#img_katla {
+    width: 80%;
+    clip-path: inset(5% 0% 5% 0%);
+}
+
+#img_Askja {
+    width: 80%;
+    clip-path: inset(0% 0% 5% 0%);
+}
+
+#img_AskjaVatnajokull-glacier {
+    width: 80%;
+}
+
+#img_langjokull-glacier {
+    width: 80%;
+}
+
+#img_Solheimajokull-glacier {
+    width: 80%;
+}
+
+#img_Myrdalsjokull-glacier {
+    width: 80%;
+}
+
+#img_Snæfellsjökull-glacier {
+    width: 80%;
+}
+
+.multimedia>iframe {
+    width: 80%
+}
+
+/*-------------------------------------------------------------------------*/
+
+
+/*------------------------------ACTIVITATS-------------------------------------*/
+
+#img_mapaAurores {
+    width: 80%;
+}
+
+#img_mapaHotspring {
+    width: 80%;
+}
+
+#img_mapaWhale {
+    width: 80%;
+    clip-path: inset(10% 0% 0% 0%);
+}
+
+#img_Huldufolk {
+    width: 70%;
+}
+
+.waterfall_Activities{
+    display: flex;
+    justify-content: center;
+    
+}
+
+#waterfall_Activities_img{
+    border-radius: 10%;
+}
+
+
+/*-------------------------------------------------------------------------*/
+
+
+/*------------------------------ENLLAÇOS-------------------------------------*/
+
+.bodyTextLinkPage {
+    color: white;
+    line-height: 30px;
+    margin-left: 30px;
+    margin-right: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.bodyTextLinkPage a {
+    color: rgb(204, 200, 200);
+    text-decoration: none;
+}
+
+/* TABLET */
+@media screen and (min-width:481px) and (max-width: 1023px) {
+    .bodyTextLinkPage {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/* PHONE */
+@media screen and (max-width: 480px) {
+    .bodyTextLinkPage {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/*-------------------------------------------------------------------------*/
