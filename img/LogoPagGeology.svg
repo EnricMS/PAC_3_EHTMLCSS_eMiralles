@@ -9,6 +9,9 @@
    id="svg10600"
    inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
    sodipodi:docname="LogoPagGeology.svg"
+   inkscape:export-filename="LogoPagGeology.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -26,11 +29,11 @@
      showgrid="false"
      inkscape:zoom="0.74564394"
      inkscape:cx="396.97231"
-     inkscape:cy="669.22022"
+     inkscape:cy="671.90246"
      inkscape:window-width="1920"
-     inkscape:window-height="1017"
-     inkscape:window-x="-8"
-     inkscape:window-y="-8"
+     inkscape:window-height="986"
+     inkscape:window-x="-11"
+     inkscape:window-y="-11"
      inkscape:window-maximized="1"
      inkscape:current-layer="layer1" />
   <defs
@@ -39,13 +42,16 @@
      inkscape:label="Capa 1"
      inkscape:groupmode="layer"
      id="layer1">
-    <path
-       style="fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:8.20534;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-       d="M 9.6434819,289.8555 195.56472,289.06782 159.79552,220.14516 138.17677,256.77263 73.320526,148.85944 36.372119,237.47428 11.608823,228.80972 Z"
-       id="path11088" />
-    <path
-       style="fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:5.75062;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-       d="m 48.220114,209.90043 12.190984,9.71265 10.159163,-9.71265 9.481877,7.42732 20.318312,-19.4253"
-       id="path12184" />
+    <g
+       id="g291">
+      <path
+         style="fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:8.20534;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+         d="M 9.6434819,289.8555 195.56472,289.06782 159.79552,220.14516 138.17677,256.77263 73.320526,148.85944 36.372119,237.47428 11.608823,228.80972 Z"
+         id="path11088" />
+      <path
+         style="fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:5.75062;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+         d="m 48.220114,209.90043 12.190984,9.71265 10.159163,-9.71265 9.481877,7.42732 20.318312,-19.4253"
+         id="path12184" />
+    </g>
   </g>
 </svg>
