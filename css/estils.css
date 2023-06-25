@@ -155,7 +155,7 @@
 }
 
 .iconaRedireccioGeo {
-    width: 200px;
+    width: 100px;
 }
 
 .iconaRedireccioActv {
@@ -589,46 +589,75 @@
 #DorsalOceanicaFoto_iceland {
     flex: 1;
     height: auto;
-    width: 60%;
+    width: 100%;
+    padding-left: 25%;
+    padding-right: 25%;
 }
 
 #img_Eyjafjallajökull {
-    width: 80%;
+    height: auto;
+    width: 100%;
+    padding-left: 25%;
+    padding-right: 25%;
     clip-path: inset(10% 0% 5% 0%);
 }
 
 #img_Hekla {
-    width: 80%;
+    height: auto;
+    width: 100%;
+    padding-left: 25%;
+    padding-right: 25%;
 }
 
 #img_katla {
-    width: 80%;
+    height: auto;
+    width: 100%;
+    padding-left: 25%;
+    padding-right: 25%;
     clip-path: inset(5% 0% 5% 0%);
 }
 
 #img_Askja {
-    width: 80%;
+    height: auto;
+    width: 100%;
+    padding-left: 25%;
+    padding-right: 25%;
     clip-path: inset(0% 0% 5% 0%);
 }
 
 #img_AskjaVatnajokull-glacier {
-    width: 80%;
+    height: auto;
+    width: 100%;
+    padding-left: 25%;
+    padding-right: 25%;
 }
 
 #img_langjokull-glacier {
-    width: 80%;
+    height: auto;
+    width: 100%;
+    padding-left: 25%;
+    padding-right: 25%;
 }
 
 #img_Solheimajokull-glacier {
-    width: 80%;
+    height: auto;
+    width: 100%;
+    padding-left: 25%;
+    padding-right: 25%;
 }
 
 #img_Myrdalsjokull-glacier {
-    width: 80%;
+    height: auto;
+    width: 100%;
+    padding-left: 25%;
+    padding-right: 25%;
 }
 
 #img_Snæfellsjökull-glacier {
-    width: 80%;
+    height: auto;
+    width: 100%;
+    padding-left: 25%;
+    padding-right: 25%;
 }
 
 .multimedia>iframe {
@@ -642,20 +671,32 @@
 /*------------------------------ACTIVITATS-------------------------------------*/
 
 #img_mapaAurores {
-    width: 80%;
+    height: auto;
+    width: 100%;
+    padding-left: 25%;
+    padding-right: 25%;
 }
 
 #img_mapaHotspring {
-    width: 80%;
+    height: auto;
+    width: 100%;
+    padding-left: 25%;
+    padding-right: 25%;
 }
 
 #img_mapaWhale {
-    width: 80%;
+    height: auto;
+    width: 100%;
+    padding-left: 25%;
+    padding-right: 25%;
     clip-path: inset(10% 0% 0% 0%);
 }
 
 #img_Huldufolk {
-    width: 70%;
+    height: auto;
+    width: 100%;
+    padding-left: 25%;
+    padding-right: 25%;
 }
 
 .waterfall_Activities{
